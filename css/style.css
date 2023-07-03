@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: calibri;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Calibri;
+    color: #d268ca;
+	letter-spacing: -4px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.tombol-daftar{
+    border-color: #d268ca;
+    margin-left: 20px;
+    color: #d268ca;
+    font-weight: 500;
+}
+
+.tombol-daftar:hover{
+    background-color: #d268ca;
+    border-color: #d268ca;
+}
+/* Akahir Navbar */
+
+/* Jumbotron */
+.gambar{
+    width: 100%;
+}
+
+.slogan{
+    padding-top: 100px;
+}
+
+.tombol-readmore{
+    border-color: #d268ca;
+    color: #d268ca;
+    font-weight: 500;
+}
+
+.tombol-readmore:hover{
+    background-color: #d268ca;
+    border-color: #d268ca;
+}
+
+#home h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #d268ca;
+}
+
+#home{
+    padding-top: 100px;
+}
+/* Akhir Jumbotron */
+
+/* Section Course */
+#course h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #d268ca;
+}
+
+#course{
+    padding-top: 100px;
+}
+/* Akhir Course */
+
+/* Section Tutors */
+#tutors img{
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+#tutors h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #d268ca;
+}
+
+#tutors{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* Akhir Tutors */
+
+/* Section Partners */
+#partners img{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+#partners h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #d268ca;
+}
+
+#partners{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* Akhir Partners */
+
+/* Section Pricing */
+#pricing{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#pricing h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #d268ca;
+}
+
+.kolom-harga{
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.kolom-harga-personal{
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.diskon{
+    background-color: darkgray;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.diskon-personal{
+    background-color: #d268ca;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.diskon span{
+    font-size: 18px;
+}
+
+.plan{
+    padding: 20px 0;
+}
+
+.plan span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.harga span{
+    font-size: 18px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.harga h3 span{
+    color: #d268ca;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.harga h3 span{
+    text-decoration: none;
+}
+
+.deskripsi{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.deskripsi span{
+    font-size: small;
+}
+
+.tombol-pilih{
+    padding-bottom: 30px;
+}
+
+.tombol-pilihsekarang{
+    background-color: #d268ca;
+    border-color: #d268ca;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.tombol-pilihsekarang:hover{
+    background-color: #803679;
+    border-color: #803679;
+}
+/* Akhir Partners */
+
+/* Section Contact */
+#contact{
+    background-color: lightgrey;
+    padding: 50px 0;
+}
+
+#contact h3{
+    font-weight: bold;
+}
